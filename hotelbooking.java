@@ -89,7 +89,7 @@ public class hotelbooking {
 		select8.selectByValue("2024");
 
 		WebElement cvv = driver.findElement(By.xpath("//input[@name='cc_cvv']"));
-		cvv.sendKeys("808");
+		cvv.sendKeys("898");
 
 		WebElement booknow = driver.findElement(By.xpath("(//input[@type='button'])[1]"));
 		booknow.click();Thread.sleep(6000);
